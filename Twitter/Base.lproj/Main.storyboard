@@ -94,6 +94,9 @@
                                             <state key="normal" image="favor-icon">
                                                 <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="favoriteTweet:" destination="13B-2l-6Vd" eventType="touchUpInside" id="0OM-6i-1Xs"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ai-8f-u49" userLabel="retweetButton">
                                             <rect key="frame" x="279" y="99" width="30" height="30"/>
@@ -122,7 +125,9 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
+                                    <outlet property="favButton" destination="J7D-jH-Pax" id="DQd-Qc-erc"/>
                                     <outlet property="profileImageView" destination="9KP-6F-QxP" id="tk4-iZ-XqF"/>
+                                    <outlet property="retweetButton" destination="4ai-8f-u49" id="uqA-Mf-ayQ"/>
                                     <outlet property="tweetContent" destination="aWr-H4-v2F" id="ykO-dw-C2P"/>
                                     <outlet property="userNameLabel" destination="Fou-TJ-sQM" id="va7-bx-a8n"/>
                                 </connections>

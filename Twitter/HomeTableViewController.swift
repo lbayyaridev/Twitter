@@ -26,6 +26,7 @@ class HomeTableViewController: UITableViewController {
         self.tweetTable.rowHeight = UITableView.automaticDimension
         self.tweetTable.estimatedRowHeight = 150
         
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
