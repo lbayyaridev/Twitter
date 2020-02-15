@@ -15,7 +15,6 @@
 		A2591FB123ECFCDF00EF728C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2591FB023ECFCDF00EF728C /* LoginViewController.swift */; };
 		A2591FB323ED08FC00EF728C /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2591FB223ED08FC00EF728C /* HomeTableViewController.swift */; };
 		A2591FB523ED12E100EF728C /* TweetCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2591FB423ED12E100EF728C /* TweetCellTableViewCell.swift */; };
-		A28535E423F62E5F00815288 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28535E323F62E5F00815288 /* Launch Screen.storyboard */; };
 		A28535E623F6388000815288 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28535E523F6388000815288 /* TweetViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -161,7 +160,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A28535E423F62E5F00815288 /* Launch Screen.storyboard in Resources */,
 				37D29B8621F90E3400984A88 /* Assets.xcassets in Resources */,
 				6EBCF52B21DF07FC00451C03 /* Main.storyboard in Resources */,
 			);
